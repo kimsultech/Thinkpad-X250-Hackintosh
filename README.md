@@ -1,11 +1,11 @@
 <p align="center">
- <img src="https://github.com/zamkara/Lenovo-Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Banner.webp" align="center" alt="ROG-STRIX-G513QC" />
+ <img src="https://github.com/kimsultech/Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Banner.webp" align="center" alt="ROG-STRIX-G513QC" />
  <h2 align="center">Lenovo ThinkPad X250</h2>
  <p align="center">OpenCore Config for Lenovo ThinkPad X250 🍏</p>
 
 <br><br>
 
-<img src="https://github.com/zamkara/Lenovo-Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Screenshot%202024-02-14%20at%2018.19.56.png" alt="img" align="right" width="350px">
+<img src="https://github.com/kimsultech/Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Screenshot%202024-02-14%20at%2018.19.56.png" alt="img" align="right" width="350px">
 <br/><br/>
 
 ## Disclaimer ⚠️
@@ -16,27 +16,27 @@ This EFI is based in [olarila](https://olarila.com/files/OPENCORE1/EFI.Opencore.
 ## Configuration  
 | **Category**   | **Details**                               |
 | -------------- | ------------------------------------------|
-| CPU            | Intel Core i5-5300U                       |
+| CPU            | Intel Core i5-5200U                       |
 | GPU            | Intel HD Graphics 5500                    |
-| Memory         | Kingston 8GB DDR3L                        |
+| Memory         | Micron 16GB DDR3L                         |
 | Storage 1      | 256GB Midasforce M2.2242 SSD              |
-| Storage 2      | 512GB Toshiba HDD Sata                    |
+| Storage 2      | 128GB CS A1 SSD Sata                      |
 | Wifi           | Intel AC-7265 Dual Band + Bluetooth       |
 
 </p>
 
 ## Screenshot
 <p align="center">
-  <kbd><br>V E N T U R A 13.6.4
+  <kbd><br>SONOMA 14.7.4
   <br><br>
-  <kbd><img src="https://github.com/zamkara/Lenovo-Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Screenshot%202024-02-14%20at%2005.50.22.png"/></kbd></kbd>
+  <kbd><img src="https://github.com/kimsultech/Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Screenshot%22025-03-04%2at%203.54.59.png"/></kbd></kbd>
   <br><br>
 
 > [!Warning]
 > When installing or updating the system, be sure to make sure and replace some kext that matches your macOS version, otherwise, some components will not run properly.
 <br>
 
-<a href="https://github.com/zamprjkt/Lenovo-Thinkpad-X250-Hackintosh/releases" target="blank"><img align="left" width="300px" src="https://github.com/zamkara/Lenovo-Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/download.svg" /></a>
+<a href="https://github.com/zamprjkt/Lenovo-Thinkpad-X250-Hackintosh/releases" target="blank"><img align="left" width="300px" src="https://github.com/kimsultech/Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/download.svg" /></a>
 Download the MacOS installation at the following link, [`Download Here`](https://www.olarila.com/topic/6278-new-vanilla-olarila-images/), Or download it from the macOS terminal directly by following this guide [`osxdaily`](https://osxdaily.com/2020/04/13/how-download-full-macos-installer-terminal/)
 <br><br>
 
@@ -52,7 +52,7 @@ Download the MacOS installation at the following link, [`Download Here`](https:/
 - Clone this repo through the terminal.
 
     ```
-    git clone https://github.com/zamkara/Lenovo-Thinkpad-X250-Hackintosh.git
+    git clone https://github.com/kimsultech/Thinkpad-X250-Hackintosh.git
     ```
 - Download *Wireless Kernel Extension* from [Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) & [itlwm](https://github.com/OpenIntelWireless/itlwm) then place it in the `$source/EFI/OC/Kexts` directory, be sure to download Airportitlwm for the appropriate macOS version or use itlwm for all macOS versions.
 - Update the config to register the kext that was added to the folder using [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) or [Opencore configurator](https://mackie100projects.altervista.org/download-opencore-configurator/).
