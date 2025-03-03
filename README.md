@@ -29,7 +29,7 @@ This EFI is based in [olarila](https://olarila.com/files/OPENCORE1/EFI.Opencore.
 <p align="center">
   <kbd><br>SONOMA 14.7.4
   <br><br>
-  <kbd><img src="https://github.com/kimsultech/Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Screenshot%22025-03-04%2at%203.54.59.png"/></kbd></kbd>
+  <kbd><img src="https://github.com/kimsultech/Thinkpad-X250-Hackintosh/raw/Opencore/screenshot/Screenshot%202025-03-04%20at%2003.54.59.png"/></kbd></kbd>
   <br><br>
 
 > [!Warning]
